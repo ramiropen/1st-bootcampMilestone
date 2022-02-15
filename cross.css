@@ -1,3 +1,5 @@
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -11,11 +13,13 @@ table {
 }
 
 td {
-    border: 5px solid white;
+    border: #5e60ce;
+    border-width: 5px;
+    border-style: solid;
     height: 40px;
     width: 40px;
     text-align: center;
-    color:purple;
+    color: purple;
 }
 
 td:empty {
@@ -28,5 +32,31 @@ sup {
 }
 
 body {
-    background-color: purple;
+    background-color: purple; 
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+
+    
+
+.kiddDiv {
+    display: flex;
+    justify-content: center;
+   position: sticky;
+   bottom: 0;
+   z-index: -1;
+   width: 100%;
+}
+
