@@ -8,8 +8,9 @@
     <title>CrossWordPuzzle(^_^)</title>
 </head>
 <body>
-    <h1>90's Cartoon Crossword Puzzle</h1>
-
+    <div class="header">
+        <h1>90's Cartoon Crossword Puzzle</h1>
+    </div>
     <!-- made a div to help me hide the answers -->
     <div class="hide"></div>
     <table>
@@ -129,15 +130,20 @@
             <td class ="'mufasa'">A</td>
         </tr> 
     </table>
- 
-    <form onsubmit="javascript:checkAnswer()" action ="javascript:null">
-        <p>submit your answer here <input></p>
-    </form>
+    
+    <div class="subForm">
+        <form onsubmit="javascript:checkAnswer()" action ="javascript:null">
+            <p>submit your answer here <input></p>
+        </form>
+    </div>
 
+<div class="center">
     <h2>Hints</h2>
+</div>
     <!-- hints for the answers -->
+<div class="center"> 
     <h2>Across</h2>
-
+</div class="questions">
     <!-- questions across -->
         <ol>
             <li>
@@ -160,9 +166,9 @@
             </li>
         </ol>
 
-
+<div class="center">
     <h2>Down</h2>
-
+</div class="questions">
     <!-- questions down -->
         <ol>
             <li>

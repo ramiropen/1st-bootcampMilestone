@@ -27,10 +27,19 @@ body {
     
 } */
 
-h1 {
+.header {
     display: flex;
     justify-content: center;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dPurp);
+    color: var(--green);
+    width: 400px;
+}
+
 
 /* dive to hide answers so when i made this div i didnt realise I can jsut add a background color to me td div. lol
 .hide {
@@ -48,13 +57,14 @@ h1 {
     background-color: purple;   
 } */
 
-
+/* table grid */
 table {
     display: flex;
     position: relative;
     top: px;
     justify-content: center;
     border-collapse: collapse;
+    padding: 10px;
 }
 
 
@@ -78,14 +88,51 @@ sup {
     color: black;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
 
 h2 {
     display: flex;
     justify-content: center;
     color: var(--blue);
-    background-color: var(--lPurp);
+    background-color: var(--dPurp);
+    width: 200px;
 }
 
+/* submit form */
+form {
+    /* border-radius: 25%; */
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    min-height: 200px;
+    border: 8px solid;
+    padding: 1rem;
+    border-width: 8px;
+    border-image: repeating-linear-gradient(45deg, var(--mPurp), var(--lPurp) 4%) 1;
+    background-color: var(--dPurp);
+    opacity: 0.5;
+}
+/* 
+.subform {
+    border-radius: 95%;
+} */
+
+form:hover {
+    opacity: 1.0;
+}
+
+p {
+    color: var(--green);
+}
+
+.questions {
+    background-color: var(--dPurp);
+}
+
+/* questions */
 ol {
     display: flex;
     flex-direction: column;
@@ -98,6 +145,12 @@ ol {
     border-width: 5px;
     /* border-style: solid; */
     height: 250px;
+    background-color: var(--dPurp);
+    opacity: 0.5;
+}
+
+ol:hover{
+    opacity: 1.0;
 }
 
 li {
@@ -106,27 +159,6 @@ li {
     
 }
 
-/* submit form */
-form {
-    font-size: 1.6rem;
-	display: grid;
-	place-items: center;
-	min-height: 200px;
-	border: 8px solid;
-	padding: 1rem;
-    border-width: 8px;
-	border-image: repeating-linear-gradient(45deg, var(--dPurp), var(--green) 4%) 1;
-    background-color: var(--lPurp);
-    opacity: 0.5;
-    
-}
 
-form:hover {
-    opacity: 1.0;
-}
-
-p {
-
-}
 
 
