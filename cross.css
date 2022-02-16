@@ -1,25 +1,72 @@
+:root {
+    --dPurp: #7400B8;
+    --mPurp: #6930C3;
+    --lPurp: #5E60CE;
+    --blue: #56CFE1;
+    --green: #80FFDB;
+}
 
+body {
+    /* background-color: purple;  */
+    background-image: url('90-kid.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: auto; */
+    background-size: 1727px 1331px;
+}
+
+/* I used the image inside the body for the background instead. */
+/* .kiddDiv {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    
+} */
 
 h1 {
     display: flex;
     justify-content: center;
 }
 
+/* dive to hide answers so when i made this div i didnt realise I can jsut add a background color to me td div. lol
+.hide {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 10px;
+    left: 154px;
+    z-index: -1;
+    height: 465px;
+    width: 464px;
+    border-style: solid;
+    border-width: 5px;
+    color: black;
+    background-color: purple;   
+} */
+
+
 table {
     display: flex;
+    position: relative;
+    top: px;
     justify-content: center;
     border-collapse: collapse;
-    
 }
 
+
 td {
-    border: #5e60ce;
+    border: var(--dPurp);
     border-width: 5px;
     border-style: solid;
     height: 40px;
     width: 40px;
     text-align: center;
-    color: purple;
+    color: var(--green);
+    background-color: var(--green);
 }
 
 td:empty {
@@ -31,32 +78,55 @@ sup {
     color: black;
 }
 
-body {
-    background-color: purple; 
-}
 
 h2 {
     display: flex;
     justify-content: center;
+    color: var(--blue);
+    background-color: var(--lPurp);
 }
 
 ol {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     justify-content: space-evenly;
     justify-content: space-around;
+    padding: 10px;
+    border-width: 5px;
+    /* border-style: solid; */
+    height: 250px;
 }
 
-
-    
-
-.kiddDiv {
+li {
     display: flex;
-    justify-content: center;
-   position: sticky;
-   bottom: 0;
-   z-index: -1;
-   width: 100%;
+    color: var(--green);
+    
 }
+
+/* submit form */
+form {
+    font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 1rem;
+    border-width: 8px;
+	border-image: repeating-linear-gradient(45deg, var(--dPurp), var(--green) 4%) 1;
+    background-color: var(--lPurp);
+    opacity: 0.5;
+    
+}
+
+form:hover {
+    opacity: 1.0;
+}
+
+p {
+
+}
+
 
