@@ -4,69 +4,27 @@
     --lPurp: #5E60CE;
     --blue: #56CFE1;
     --green: #80FFDB;
+    --shadow: rgb(128,128,128,0.5)
 }
 
 body {
-    /* background-color: purple;  */
     background-image: url('90-kid.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: auto; */
     background-size: 1727px 1331px;
 }
 
-/* I used the image inside the body for the background instead. */
-/* .kiddDiv {
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    bottom: 0;
-    z-index: -1;
-    
-} */
-
-.header {
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    background-color: var(--dPurp);
-    color: var(--green);
-    width: 400px;
-}
-
-
-/* dive to hide answers so when i made this div i didnt realise I can jsut add a background color to me td div. lol
-.hide {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 10px;
-    left: 154px;
-    z-index: -1;
-    height: 465px;
-    width: 464px;
-    border-style: solid;
-    border-width: 5px;
-    color: black;
-    background-color: purple;   
-} */
-
-/* table grid */
+/* Crossword Puzzle Grid */
 table {
     display: flex;
     position: relative;
     top: px;
     justify-content: center;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 20px;
 }
-
 
 td {
     border: var(--dPurp);
@@ -75,8 +33,14 @@ td {
     height: 40px;
     width: 40px;
     text-align: center;
-    color: var(--green);
-    background-color: var(--green);
+    color: var(--mPurp);
+    background-color: var(--mPurp);
+    box-shadow: 8px 10px var(--shadow);
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: #ffa600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 
 td:empty {
@@ -93,32 +57,72 @@ sup {
     justify-content: center;
 }
 
+/* Headers */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.headerPic {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 8px 10px var(--shadow);
+    border-style:ridge;
+    border-color: #ffa600;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dPurp);
+    color: var(--green);
+    width: 400px;
+}
+
 h2 {
     display: flex;
     justify-content: center;
+    width: 900px;
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: #ffa600;
     color: var(--blue);
     background-color: var(--dPurp);
-    width: 200px;
+    box-shadow: 8px 10px var(--shadow);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
 }
 
-/* submit form */
+h3 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: #ffa600;
+    color: var(--blue);
+    background-color: var(--dPurp);
+    box-shadow: 8px 10px var(--shadow);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+/* Submit form */
 form {
-    /* border-radius: 25%; */
     font-size: 1.6rem;
     display: grid;
     place-items: center;
     min-height: 200px;
-    border: 8px solid;
-    padding: 1rem;
-    border-width: 8px;
-    border-image: repeating-linear-gradient(45deg, var(--mPurp), var(--lPurp) 4%) 1;
     background-color: var(--dPurp);
     opacity: 0.5;
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: #ffa600;
+    box-shadow: 8px 10px var(--shadow);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
 }
-/* 
-.subform {
-    border-radius: 95%;
-} */
 
 form:hover {
     opacity: 1.0;
@@ -128,25 +132,29 @@ p {
     color: var(--green);
 }
 
+/* Questions */
 .questions {
     background-color: var(--dPurp);
 }
 
-/* questions */
 ol {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     justify-content: space-evenly;
     justify-content: space-around;
     padding: 10px;
     border-width: 5px;
-    /* border-style: solid; */
     height: 250px;
     background-color: var(--dPurp);
     opacity: 0.5;
+    box-shadow: 8px 10px var(--shadow);
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: #ffa600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 
 ol:hover{
@@ -155,8 +163,7 @@ ol:hover{
 
 li {
     display: flex;
-    color: var(--green);
-    
+    color: var(--green); 
 }
 
 
