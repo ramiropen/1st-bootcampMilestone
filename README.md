@@ -10,7 +10,7 @@ and nothing will change.
 
 hints and a link to the answers will be provided.
 
-The goal of this game is simple, complete the puzzle and maybe; jsut maybe I 
+The goal of this game is simple, complete the puzzle and maybe; just maybe I 
 will add a surprise for completion. If I am skilled enough to do so haha. Good luck!
 
-Tip: Do not!, use space while spelling
+Tip: Do not, use space while spelling
