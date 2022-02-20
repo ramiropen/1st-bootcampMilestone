@@ -10,10 +10,11 @@
 body {
     background-image: url('90-kid.jpg');
     height: 100%;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1727px 1331px;
+    background-size: 2027px 1331px;
 }
 
 .audioP {
