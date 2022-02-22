@@ -12,8 +12,6 @@ function checkAnswer() {
     }
     document.querySelector("input").value = "";
 }
-
-
 console.log(checkAnswer)
 
 
