@@ -2,7 +2,7 @@
 
 This is my first game, first milestone, first solo project finished to be reviewed and graded by another source. 
 
-This game is a crossword puzzle based of 90's cartoons from various tv networks such as: Cartoon Network, Nickelodean, Kids W.B., etc. 
+This is a crossword puzzle based of 90's cartoons from various tv networks such as: Cartoon Network, Nickelodean, Kids W.B., etc. 
 
 There will be an input form where you can submit your answers. If you answer correctly, the answer will appear on the grid in the correct row. If your answer is incorrect, nothing will change. 
 

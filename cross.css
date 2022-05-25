@@ -29,7 +29,7 @@ hr {
     color: black;
 }
 
-/* Crossword Puzzle Grid */
+/* ---------Crossword Puzzle Grid------------ */
 table {
     display: flex;
     position: relative;
@@ -70,7 +70,7 @@ sup {
     justify-content: center;
 }
 
-/* Headers */
+/*------------ Headers -------------*/
 .header {
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ sup {
 .subform {
     display: flex;
     justify-content: center;
-    
+    border-radius: 25px;
 
 }
 
@@ -128,7 +128,17 @@ h3 {
     font-size: 30px;
 }
 
-/* Submit form */
+.center2 {
+    display: flex;
+    justify-content: center;  
+}
+
+.hint {
+    width: 500px;
+}
+
+
+/* ------------Submit form-------------- */
 form {
     font-size: 1.6rem;
     display: grid;
@@ -152,7 +162,7 @@ p {
     color: var(--green);
 }
 
-/* Questions */
+/* ----------Questions----------- */
 .questions {
     background-color: var(--dPurp);
 }
@@ -175,6 +185,7 @@ ol {
     border-color: #ffa600;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+    border-radius: 25px;
 }
 
 ol:hover{
@@ -184,6 +195,14 @@ ol:hover{
 li {
     display: flex;
     color: var(--green); 
+}
+
+.subButton {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    border-radius: 17px;
+     
 }
 
 

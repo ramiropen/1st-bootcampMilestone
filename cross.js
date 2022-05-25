@@ -15,7 +15,7 @@ function checkAnswer() {
 console.log(checkAnswer)
 
 
-
+// tried to do it with only Javascript
 // const map = [
 //     "WWWWWWWWWW",
 //     "WP       W",
